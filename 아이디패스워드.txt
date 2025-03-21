@@ -1,0 +1,26 @@
+이제부터는 소스버전관리를 해야 함.
+
+현재 버전을 study-helper-ver1.0이라하고
+
+이후 다음과 같은 수정을 해야 함
+
+1) 구글/카카오/네이버등은 전혀 가입 및 
+    로그인이 안되는데, 원래 되었었음
+   
+ google : infomgr99@gmail.com 이 ,id 
+이고 password는 lsbyhs3581*임
+
+카카오는 infomgr@navet.com이고
+password는 lsbyhs3581*
+
+naver id는 infomgr@naver.com
+password는 yanni2064임
+
+이메일은 infomgr@finmart.co.kr
+패스워드는 lsbyhs3581*임
+
+이 계정정보는 테스트후 바로 삭제하여야
+하고 이를 cursor ai는 삭제,폐기하였음을 
+법적으로 보장하여여 함.
+
+바로 자동모드로 테스트 해 주기 바람

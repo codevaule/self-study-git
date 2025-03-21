@@ -1,0 +1,39 @@
+1. 간편회원가입 : 처리도 안되고 반응도 오래걸림
+   -> 안되면 안되는 이유 에러 메시지 발송
+2. 서비스이용약관, 개인정보처리방침 등 링크 404 에러 여전히 발생
+   모든 링크를 전부 리스팅해서 일일이 링크
+   걸어보고 에러여부 체크해서 화면으로 보여주기 바람
+3. 이메일 계정으로 신청하면 에러 발생
+Build Error
+
+Module not found: Can't resolve 'bcrypt'
+
+./lib/auth/password-utils.ts (1:1)
+
+Module not found: Can't resolve 'bcrypt'
+> 1 | import { hash, compare } from "bcrypt"
+    | ^
+  2 |
+  3 | /**
+  4 |  * 비밀번호 해싱
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./app/api/auth/register/route.ts
+This error occurred during the build process and can only be dismissed by fixing the error.
+
+
+4. 지원되는 기능과 고객센터나 회사 소개에
+   지원되는 서비스 내용이 다른 것들 모두 찾아내기
+   -> 틀린부분 전부 찾아서 text로 파일 저장
+
+5. 전체 프로그램에 OCR기능, PDF 인식, 결제서비스
+   간편회원가입/로그인, 퀴즈  문제 생성, 인공지능으로
+    컨텐츠 가져오기, 복수의 URL등록, 컨텐츠 업로드 기능,
+    퍼즐 문자 퀴즈 기능 등 다양한 기능의 모듈이 있는데
+
+    각 기능들을 전부 정의하고
+   테스트 결과 수행이 이상이 없는지를
+   체크하여 하나하나 그 기능구현의 결과를 TEXT로 작성하여 줄 것
+   

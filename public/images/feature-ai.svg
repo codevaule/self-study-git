@@ -1,0 +1,91 @@
+<svg width="240" height="200" viewBox="0 0 240 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .primary { fill: #3b82f6; }
+    .secondary { fill: #f1f5f9; }
+    .accent { fill: #8b5cf6; }
+    .success { fill: #10b981; }
+    .warning { fill: #f59e0b; }
+    .dark .secondary { fill: #334155; }
+    .text { fill: #475569; }
+    .dark .text { fill: #cbd5e1; }
+    .outline { stroke: #64748b; }
+    .dark .outline { stroke: #94a3b8; }
+    @media (prefers-color-scheme: dark) {
+      .dark { display: block; }
+      .light { display: none; }
+    }
+    @media (prefers-color-scheme: light) {
+      .dark { display: none; }
+      .light { display: block; }
+    }
+  </style>
+  
+  <!-- 배경 -->
+  <rect x="20" y="20" width="200" height="160" rx="12" class="secondary" opacity="0.7"/>
+  
+  <!-- 로봇 머리 -->
+  <rect x="85" y="40" width="70" height="60" rx="10" class="primary" opacity="0.9"/>
+  
+  <!-- 로봇 눈 -->
+  <circle cx="105" cy="65" r="8" fill="white"/>
+  <circle cx="135" cy="65" r="8" fill="white"/>
+  <circle cx="105" cy="65" r="4" class="accent"/>
+  <circle cx="135" cy="65" r="4" class="accent"/>
+  
+  <!-- 로봇 안테나 -->
+  <rect x="115" y="30" width="10" height="10" class="primary"/>
+  <circle cx="120" cy="25" r="5" class="accent"/>
+  
+  <!-- 두뇌 회로 -->
+  <line x1="95" y1="85" x2="145" y2="85" stroke="white" stroke-width="2" stroke-dasharray="2,2"/>
+  <line x1="95" y1="90" x2="145" y2="90" stroke="white" stroke-width="2" stroke-dasharray="2,2"/>
+  
+  <!-- 로봇 몸체 -->
+  <rect x="95" y="100" width="50" height="40" rx="5" class="primary" opacity="0.7"/>
+  
+  <!-- 회로 패턴 -->
+  <line x1="100" y1="105" x2="100" y2="135" stroke="white" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="110" y1="105" x2="110" y2="135" stroke="white" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="120" y1="105" x2="120" y2="135" stroke="white" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="130" y1="105" x2="130" y2="135" stroke="white" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="140" y1="105" x2="140" y2="135" stroke="white" stroke-opacity="0.5" stroke-width="1"/>
+  
+  <line x1="95" y1="110" x2="145" y2="110" stroke="white" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="95" y1="120" x2="145" y2="120" stroke="white" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="95" y1="130" x2="145" y2="130" stroke="white" stroke-opacity="0.5" stroke-width="1"/>
+  
+  <!-- 로봇 팔 -->
+  <rect x="70" y="105" width="25" height="8" rx="4" class="primary" opacity="0.8"/>
+  <rect x="145" y="105" width="25" height="8" rx="4" class="primary" opacity="0.8"/>
+  
+  <!-- 책 아이콘 -->
+  <rect x="45" y="120" width="30" height="25" rx="2" class="success" opacity="0.8"/>
+  <rect x="45" y="120" width="30" height="5" class="success" opacity="0.9"/>
+  <line x1="60" y1="125" x2="60" y2="145" stroke="white" stroke-width="1"/>
+  
+  <!-- 전구 아이콘 -->
+  <circle cx="180" cy="125" r="15" class="warning" opacity="0.9"/>
+  <path d="M180,115 L180,120 M175,117 L185,123 M175,123 L185,117 M173,125 L187,125 M175,132 L185,128" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+  
+  <!-- 데이터 스트림 이펙트 -->
+  <path d="M50,70 C60,50 70,80 80,60" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <path d="M160,70 C170,50 180,80 190,60" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  
+  <!-- 바닥 그림자 -->
+  <ellipse cx="120" cy="160" rx="50" ry="10" class="text" opacity="0.2"/>
+  
+  <!-- 신경망 패턴 -->
+  <circle cx="40" cy="50" r="3" class="accent" opacity="0.7"/>
+  <circle cx="50" cy="40" r="3" class="accent" opacity="0.7"/>
+  <circle cx="60" cy="60" r="3" class="accent" opacity="0.7"/>
+  <line x1="40" y1="50" x2="50" y2="40" stroke="#8b5cf6" stroke-width="1" opacity="0.5"/>
+  <line x1="50" y1="40" x2="60" y2="60" stroke="#8b5cf6" stroke-width="1" opacity="0.5"/>
+  <line x1="40" y1="50" x2="60" y2="60" stroke="#8b5cf6" stroke-width="1" opacity="0.5"/>
+  
+  <circle cx="190" cy="50" r="3" class="accent" opacity="0.7"/>
+  <circle cx="180" cy="40" r="3" class="accent" opacity="0.7"/>
+  <circle cx="200" cy="60" r="3" class="accent" opacity="0.7"/>
+  <line x1="190" y1="50" x2="180" y2="40" stroke="#8b5cf6" stroke-width="1" opacity="0.5"/>
+  <line x1="180" y1="40" x2="200" y2="60" stroke="#8b5cf6" stroke-width="1" opacity="0.5"/>
+  <line x1="190" y1="50" x2="200" y2="60" stroke="#8b5cf6" stroke-width="1" opacity="0.5"/>
+</svg> 
